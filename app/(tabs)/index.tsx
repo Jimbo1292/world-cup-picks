@@ -9,7 +9,7 @@ export default function HomeScreen() {
 
       <Text style={styles.subtitle}>
         Predict every match.{"\n"}
-        Compete with your friends.{"\n"}
+        Compete with friends.{"\n"}
         Climb the leaderboard.
       </Text>
 
