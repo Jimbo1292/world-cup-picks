@@ -1,6 +1,9 @@
+import { useRouter } from "expo-router";
 import { Pressable, StyleSheet, Text, View } from "react-native";
 
 export default function HomeScreen() {
+  const router = useRouter();
+
   return (
     <View style={styles.container}>
       <Text style={styles.trophy}>🏆</Text>
@@ -13,8 +16,11 @@ export default function HomeScreen() {
         Climb the leaderboard.
       </Text>
 
-      <Pressable style={styles.button}>
-        <Text style={styles.buttonText}>Get Started</Text>
+      <Pressable
+        style={styles.button}
+        onPress={() => router.push("/profile")}
+      >
+      <Text style={styles.buttonText}>Get Started</Text>
       </Pressable>
     </View>
   );
