@@ -5,7 +5,7 @@ export default function HomeScreen() {
     <View style={styles.container}>
       <Text style={styles.trophy}>🏆</Text>
 
-      <Text style={styles.title}>FIFA World Cup Picks</Text>
+      <Text style={styles.title}>FIFA World Cup Picks!</Text>
 
       <Text style={styles.subtitle}>
         Predict every match.{"\n"}
